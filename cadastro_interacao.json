@@ -1,0 +1,39 @@
+{
+"user_id": 21,
+    "session_id": "abc123",
+    "flow": [
+        {
+            "step": "Acessar página de cadastro",
+            "url": "https://empresa.com/cadastro",
+            "clicks": 1,
+            "input_fields": [],
+            "duration_seconds": 10
+        },
+        {
+            "step": "Preencher dados pessoais",
+            "url": "https://empresa.com/cadastro/pessoais",
+            "clicks": 3,
+            "input_fields": [
+                { "field": "nome", "value": "João da Silva" },
+                { "field": "email", "value": "joao.silva@empresa.com" },
+                { "field": "telefone", "value": "123456789" }
+            ],
+            "duration_seconds": 120
+        },
+        {
+            "step": "Confirmar dados de cadastramento",
+            "url": "https://empresa.com/cadastro/confirmacao",
+            "clicks": 2,
+            "input_fields": [],
+            "duration_seconds": 300
+        },
+        {
+            "step": "Finalizar cadastro",
+            "url": "https://empresa.com/cadastro/finalizado",
+            "clicks": 1,
+            "input_fields": [],
+            "duration_seconds": 15
+        }
+    ],
+    "total_duration_seconds": 445
+}

@@ -1,0 +1,40 @@
+{
+    "user_id": 24,
+    "session_id": "jkl012",
+    "flow": [
+      {
+        "step": "Acessar página de cadastro",
+        "url": "https://empresa.com/cadastro",
+        "clicks": 1,
+        "input_fields": [],
+        "duration_seconds": 10
+      },
+      {
+        "step": "Preencher dados pessoais",
+        "url": "https://empresa.com/cadastro/pessoais",
+        "clicks": 3,
+        "input_fields": [
+          { "field": "nome", "value": "Ana Costa" },
+          { "field": "email", "value": "ana.costa@empresa.com" },
+          { "field": "telefone", "value": "123987456" }
+        ],
+        "duration_seconds": 100
+      },
+      {
+        "step": "Confirmar dados de cadastramento",
+        "url": "https://empresa.com/cadastro/confirmacao",
+        "clicks": 2,
+        "input_fields": [],
+        "duration_seconds": 80
+      },
+      {
+        "step": "Finalizar cadastro",
+        "url": "https://empresa.com/cadastro/finalizado",
+        "clicks": 6,
+        "input_fields": [],
+        "duration_seconds": 500
+      }
+    ],
+    "total_duration_seconds": 690
+  }
+  
