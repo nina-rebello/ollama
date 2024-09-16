@@ -122,6 +122,7 @@ st.subheader('Insights Detalhados do Modelo Ollama')
 st.write(detailed_insights)
 
 # Exibir gráficos
+
 st.subheader('Comparação Visual de Duração')
 fig = plot_comparison(df_current, df_reference)
 st.pyplot(fig)
