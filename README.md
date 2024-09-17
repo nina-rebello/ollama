@@ -87,5 +87,5 @@ A partir da comparação dos fluxos, o sistema gera insights como:
 
 - "Usuário gastou mais tempo na etapa 'Preencher dados pessoais' em comparação ao tempo de referência."
 - "Número de cliques em 'Finalizar cadastro' foi maior do que o esperado."
-```
+
 
