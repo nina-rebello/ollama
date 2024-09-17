@@ -89,5 +89,3 @@ A partir da comparação dos fluxos, o sistema gera insights como:
 - "Número de cliques em 'Finalizar cadastro' foi maior do que o esperado."
 ```
 
-Essa estrutura em Markdown é adequada para README no GitHub.
-
